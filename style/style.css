@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Open-Sans", sans-serif;
+}
+
+html {
+  background-color: #000;
+}
+
+body {
+  opacity: 0;
+  transition: 2s;
+}
+
+main {
+  opacity: 0;
+  transition: 2s;
+}
+
+div {
+  background-image: url("../src/images/1708646987103on35823j-transformed.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -100;
+  background-position: center;
+  background-size: cover;
+}
+
+header > img {
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+  border: solid white 1px;
+}
+
+p {
+  font-size: 0.8em;
+  border: solid white 1px;
+  display: inline-block;
+  padding: 0.2em;
+  border-radius: 1.2em;
+  backdrop-filter: blur(10px) saturate(420%) contrast(120%);
+  margin-top: 0.8em;
+}
+
+h1 {
+  margin: 1em 0;
+  font-size: 1em;
+  backdrop-filter: blur(10px) saturate(420%) contrast(120%);
+  padding: 0.6em;
+  border-radius: 2.2em;
+  border: solid white 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  text-align: center;
+  width: 544px;
+  margin: 0 auto;
+  padding: 2em;
+  list-style: none;
+}
+
+ul img {
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  backdrop-filter: blur(10px) saturate(80%) contrast(190%);
+  padding: 1em 0;
+  border-radius: 3em;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 2em;
+}
